@@ -4,7 +4,7 @@ using World Bank's Data.
 <br>
 ## To run this Web App on your device using simple steps:
 
-1. Download using the command git clone
+1. Download using the command git clone or manually on to your local machine.
 2. Run the following command
     ```bash
     pip install -r requirements.txt
@@ -13,7 +13,7 @@ using World Bank's Data.
     ```bash
     python worldbank.py
     ```
-4. You will see a url in the command prompt <br> " Running on `http://` "<br> Open that in browser to go to the Web Dashboard.
+4. The cmd will output the local web address and port where the app is running. As an example, this might be http://127.0.0.1:5000/. Now, open a web browser and go to that web address.
 5. You can also access the dashboard on other devices on the same network by going to the link displayed (while it is still being served).
 
 ## Major Concepts/Functionality:
@@ -23,6 +23,9 @@ using World Bank's Data.
 4. Plotly for Visualisations using the csv data
 
 <br>
+
+## Prerequisites:
+You will need [Python3 installed](https://www.python.org/downloads/) on your local machine.
 
 ## Checkout the App here:
    * [Web Dashboard](https://web-data-dashboard.herokuapp.com/)
